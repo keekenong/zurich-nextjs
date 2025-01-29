@@ -83,7 +83,7 @@ button:hover {
   content: "\ea57";
 }
 
-.icon--close::before{
+.icon--close::before {
   content: "\e96d";
 }
 
@@ -206,4 +206,13 @@ button:hover {
 .gsi-material-button:not(:disabled):hover .gsi-material-button-state {
   background-color: #001d35;
   opacity: 8%;
+}
+
+/* Navbar styles*/
+.transition-width {
+  transition-property: width;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
 }
